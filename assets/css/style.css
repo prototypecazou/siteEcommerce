@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black!important;
+}
+
+
+@font-face {
+    font-family: "Riva";
+    src: url("../fonts/Pencerio-Hairline.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Messa";
+    src: url("../fonts/Sneaky-Times.woff");
+}
+
+@font-face {
+    font-family: "Libre";
+    src: url("../fonts/librecaslondisplay-regular.otf");
+}
+
+@font-face {
+    font-family: "Messapia";
+    src: url("../fonts/Sneaky-Times.woff");
+}
+
+
+.blockProduit{
+    width: 40vmin;
+    height: 45vmin;
+    border: 2px solid black;
+    margin: 2vmin 1vmin 0 1vmin;
+}
+
+#blockH,#blockF{
+    background-color: red;
+    position: absolute;
+    border:2px solid black;
+    padding:1vmin 0 2vmin 2vmin;
+    width:25vmin;
+    top:100%;
+}
+
+#blockH{
+right:12%
+}
+
+#blockF{
+left:12%
+}
+
+.propriete{
+    font-weight: bold;
+
+}
+
+#blockCategorieH,#blockCategorieF,#blockMarqueH,#blockMarqueF{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vmin 0 0.8vmin 0;
+}
+
+#nombreProduits{
+    width: 2.6vmin;
+    height: 2.6vmin;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+.lienHeader{
+    padding:1.2vmin!important;
+    font-size: 1.6vmin;
+    font-family: "Messa";
+    letter-spacing: 2px;
+}
+
+.barreDeRecherche{
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline-style: none;
+    width: 35vmin;
+}
+
+.btnRecherche{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 1.5vmin;
+}
+
+.btnRecherche > i {
+    font-size: 2.4vmin;
+}
+
+.logo{
+    font-family: "Riva";
+   
+}
+
+.titrePrincipale{
+    font-size: 10vmin;
+    text-align: center;
+    margin-bottom: 4vmin;
+    font-family: "Libre";
+    letter-spacing: 1px;
+}
+
+.sousTitre{
+    font-size: 2.5vmin;
+    text-align: center;
+    margin-bottom: 7vmin;
+    letter-spacing: 2px;
+    font-family: "Messa";
+}
+
+.genre{
+    font-family: "Messapia";
+}
+
+#test{
+width: 100%;
+ position: fixed;
+
+}
+
+.titrePrestige{
+    font-family:"Libre";
+    font-size:3.2vw;
+}
+
